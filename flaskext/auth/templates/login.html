@@ -1,0 +1,20 @@
+{% extends "auth/base.html" %}
+
+{% block content %}
+<section>
+  <form method="post">
+    <fieldset>
+      <legend>Login</legend>
+
+      <div><label for="username">Username</label>
+           <input name="username" /></div>
+
+      <div><label for="password">Password</label>
+           <input name="password" type="password" /></div>
+
+      <div><input type="submit" value="login" /></div>
+
+    </fieldset>
+  </form>
+</section>
+{% endblock %}

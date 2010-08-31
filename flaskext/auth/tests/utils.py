@@ -47,3 +47,5 @@ class TestEncodePassword(unittest.TestCase):
         result2 = utils.encode_password("password")
 
         self.assertNotEqual(result1, result2)
+
+    
