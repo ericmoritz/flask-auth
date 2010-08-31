@@ -1,0 +1,6 @@
+# packages needed to run the tests, use requirements.txt if you don't care
+Flask==0.6
+blinker==1.1
+mock==0.7.0b2
+mongoengine==0.3
+
